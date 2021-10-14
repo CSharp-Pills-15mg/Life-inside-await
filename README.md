@@ -12,5 +12,5 @@ Please, be aware that this Pill will not present the exact code that exists behi
 
 ### Question
 
-- What is doing the `await` behind the scene? What is the level of magic needed to understand it?
+- What is doing the `await` behind the scene? Is that magic? Can be understood?
 
