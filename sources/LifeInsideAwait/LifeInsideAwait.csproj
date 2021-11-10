@@ -1,21 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
-      <UseWindowsForms>true</UseWindowsForms>
-      <AssemblyName>DustInTheWind.CSharpPills.LifeInsideAwait</AssemblyName>
-      <RootNamespace>DustInTheWind.CSharpPills.LifeInsideAwait</RootNamespace>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+        <AssemblyName>DustInTheWind.CSharpPills.LifeInsideAwait</AssemblyName>
+        <RootNamespace>DustInTheWind.CSharpPills.LifeInsideAwait</RootNamespace>
 
-  <ItemGroup>
-    <Compile Remove="LoggingSynchronizationContext.cs" />
-    <Compile Remove="Something4.cs" />
-    <Compile Remove="WindowsFormsSynchronizationContext.cs" />
-  </ItemGroup>
+        <Company>Dust in the Wind</Company>
+        <Product>C# Pills 15mg</Product>
+        <Copyright>Copyright © Dust in the Wind 2021</Copyright>
+        <NeutralLanguage>en</NeutralLanguage>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ConsoleTools" Version="0.5.4" />
-  </ItemGroup>
+    <ItemGroup>
+        <Compile Remove="LoggingSynchronizationContext.cs" />
+        <Compile Remove="Something4.cs" />
+        <Compile Remove="WindowsFormsSynchronizationContext.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ConsoleTools" Version="0.5.4" />
+    </ItemGroup>
 
 </Project>
